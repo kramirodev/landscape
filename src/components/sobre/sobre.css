@@ -1,0 +1,70 @@
+#resumo {
+    margin-bottom: 30px;
+  }
+  
+  #resumo h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  #resumo p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  #conhecimentos {
+    margin-bottom: 30px;
+  }
+  
+  #conhecimentos h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  #conhecimentos ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #conhecimentos li {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  #conhecimentos li:before {
+    content: "\2022"; 
+    color: #007bff; 
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+
+  @media only screen and (max-width: 600px) {
+    #sobreMim {
+      padding: 20px;
+    }
+  
+    #resumo h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+  
+    #resumo p {
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+  
+    #resumo ul {
+      padding-left: 20px;
+    }
+  
+    #resumo ul li {
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+  
